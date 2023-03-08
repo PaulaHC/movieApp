@@ -11,6 +11,7 @@ import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { MoviesService } from './service/movies.service';
 import { MoviePipe } from './pipes/movie.pipe';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { BuscaComponent } from './components/busca/busca.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     MovieComponent,
     NabvarComponent,
     MoviePipe,
-    GaleriaComponent
+    GaleriaComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,
