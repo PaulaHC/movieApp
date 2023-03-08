@@ -1,0 +1,42 @@
+
+<div class="row"  >
+    <div class="col-sm-6">
+
+    <div class="row">
+        <div class="col-md-12 div-pic-1"
+            [ngStyle]= "{ 'background-image': 'url('+(peliculas['results'][0]|movie)+')' }">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col div-pic-2"
+            [ngStyle]="{ 'background-image': 'url('+(peliculas['results'][1]|movie)+')' }">
+        </div>
+        <div class="col div-pic-2"
+            [ngStyle]="{ 'background-image': 'url('+(peliculas['results'][2]|movie)+')' }">
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-sm-6">
+
+
+    <div class="row">
+        <div class="col div-pic-2"
+            [ngStyle]="{ 'background-image': 'url('+(peliculas['results'][3]|movie)+')' }">
+        </div>
+        <div class="col div-pic-2"
+            [ngStyle]="{ 'background-image': 'url('+(peliculas['results'][4]|movie)+')' }">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col div-pic-1"
+        [ngStyle]="{ 'background-image': 'url('+(peliculas['results'][5]|movie)+')' }">
+    </div>
+    </div>
+
+    </div>
+
+</div>
